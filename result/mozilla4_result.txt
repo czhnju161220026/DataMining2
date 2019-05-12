@@ -1,0 +1,160 @@
+==== J48 summary ====
+Correctly Classified Instances       14736               94.7958 %
+Incorrectly Classified Instances       809                5.2042 %
+Kappa statistic                          0.8789
+Mean absolute error                      0.0828
+Root mean squared error                  0.2157
+Relative absolute error                 18.7762 %
+Root relative squared error             45.9265 %
+Total Number of Instances            15545     
+==== J48 detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.869    0.014    0.969      0.869    0.917      0.882    0.954     0.944     0
+                 0.986    0.131    0.939      0.986    0.962      0.882    0.954     0.958     1
+Weighted Avg.    0.948    0.092    0.949      0.948    0.947      0.882    0.954     0.953     
+
+=================================================================
+==== NaiveBayes summary ====
+Correctly Classified Instances       10670               68.6394 %
+Incorrectly Classified Instances      4875               31.3606 %
+Kappa statistic                          0.4024
+Mean absolute error                      0.3273
+Root mean squared error                  0.4611
+Relative absolute error                 74.1693 %
+Root relative squared error             98.1731 %
+Total Number of Instances            15545     
+==== NaiveBayes detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.894    0.415    0.513      0.894    0.652      0.454    0.829     0.673     0
+                 0.585    0.106    0.918      0.585    0.715      0.454    0.829     0.898     1
+Weighted Avg.    0.686    0.208    0.785      0.686    0.694      0.454    0.829     0.824     
+
+=================================================================
+==== SVM summary ====
+Correctly Classified Instances       12935               83.21   %
+Incorrectly Classified Instances      2610               16.79   %
+Kappa statistic                          0.6397
+Mean absolute error                      0.1679
+Root mean squared error                  0.4098
+Relative absolute error                 38.051  %
+Root relative squared error             87.2373 %
+Total Number of Instances            15545     
+==== SVM detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.855    0.179    0.700      0.855    0.770      0.648    0.838     0.646     0
+                 0.821    0.145    0.920      0.821    0.868      0.648    0.838     0.876     1
+Weighted Avg.    0.832    0.156    0.848      0.832    0.836      0.648    0.838     0.800     
+
+=================================================================
+==== Neural Network summary ====
+Correctly Classified Instances       14175               91.1869 %
+Incorrectly Classified Instances      1370                8.8131 %
+Kappa statistic                          0.796 
+Mean absolute error                      0.1413
+Root mean squared error                  0.2705
+Relative absolute error                 32.0258 %
+Root relative squared error             57.6001 %
+Total Number of Instances            15545     
+==== Neural Network detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.825    0.045    0.899      0.825    0.860      0.798    0.940     0.908     0
+                 0.955    0.175    0.917      0.955    0.936      0.798    0.940     0.961     1
+Weighted Avg.    0.912    0.133    0.911      0.912    0.911      0.798    0.940     0.944     
+
+=================================================================
+==== KNN summary ====
+Correctly Classified Instances       13834               88.9932 %
+Incorrectly Classified Instances      1711               11.0068 %
+Kappa statistic                          0.7514
+Mean absolute error                      0.1101
+Root mean squared error                  0.3317
+Relative absolute error                 24.9571 %
+Root relative squared error             70.6279 %
+Total Number of Instances            15545     
+==== KNN detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.839    0.085    0.828      0.839    0.834      0.751    0.877     0.764     0
+                 0.915    0.161    0.921      0.915    0.918      0.751    0.877     0.903     1
+Weighted Avg.    0.890    0.136    0.890      0.890    0.890      0.751    0.877     0.857     
+
+=================================================================
+==== Bagging J48 summary ====
+Correctly Classified Instances       14785               95.111  %
+Incorrectly Classified Instances       760                4.889  %
+Kappa statistic                          0.886 
+Mean absolute error                      0.0763
+Root mean squared error                  0.1979
+Relative absolute error                 17.3018 %
+Root relative squared error             42.123  %
+Total Number of Instances            15545     
+==== Bagging J48 detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.871    0.010    0.978      0.871    0.921      0.889    0.976     0.970     0
+                 0.990    0.129    0.940      0.990    0.965      0.889    0.976     0.983     1
+Weighted Avg.    0.951    0.090    0.952      0.951    0.950      0.889    0.976     0.979     
+
+=================================================================
+==== Bagging NaiveBayes summary ====
+Correctly Classified Instances       10686               68.7424 %
+Incorrectly Classified Instances      4859               31.2576 %
+Kappa statistic                          0.4036
+Mean absolute error                      0.3272
+Root mean squared error                  0.4612
+Relative absolute error                 74.1611 %
+Root relative squared error             98.1839 %
+Total Number of Instances            15545     
+==== Bagging NaiveBayes detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.892    0.413    0.514      0.892    0.652      0.455    0.830     0.674     0
+                 0.587    0.108    0.918      0.587    0.716      0.455    0.830     0.899     1
+Weighted Avg.    0.687    0.208    0.785      0.687    0.695      0.455    0.830     0.825     
+
+=================================================================
+==== Bagging SVM summary ====
+Correctly Classified Instances       12921               83.12   %
+Incorrectly Classified Instances      2624               16.88   %
+Kappa statistic                          0.6381
+Mean absolute error                      0.167 
+Root mean squared error                  0.4022
+Relative absolute error                 37.8411 %
+Root relative squared error             85.6203 %
+Total Number of Instances            15545     
+==== Bagging SVM detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.855    0.180    0.699      0.855    0.769      0.646    0.849     0.669     0
+                 0.820    0.145    0.920      0.820    0.867      0.646    0.849     0.884     1
+Weighted Avg.    0.831    0.157    0.847      0.831    0.835      0.646    0.849     0.813     
+
+=================================================================
+==== Bagging Neural Network summary ====
+Correctly Classified Instances       14190               91.2834 %
+Incorrectly Classified Instances      1355                8.7166 %
+Kappa statistic                          0.7981
+Mean absolute error                      0.1481
+Root mean squared error                  0.2674
+Relative absolute error                 33.564  %
+Root relative squared error             56.9284 %
+Total Number of Instances            15545     
+==== Bagging Neural Network detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.826    0.044    0.901      0.826    0.862      0.800    0.945     0.918     0
+                 0.956    0.174    0.918      0.956    0.936      0.800    0.945     0.965     1
+Weighted Avg.    0.913    0.132    0.912      0.913    0.912      0.800    0.945     0.950     
+
+=================================================================
+==== Bagging KNN summary ====
+Correctly Classified Instances       13813               88.8582 %
+Incorrectly Classified Instances      1732               11.1418 %
+Kappa statistic                          0.7482
+Mean absolute error                      0.1221
+Root mean squared error                  0.3002
+Relative absolute error                 27.67   %
+Root relative squared error             63.9104 %
+Total Number of Instances            15545     
+==== Bagging KNN detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.836    0.086    0.827      0.836    0.831      0.748    0.928     0.855     0
+                 0.914    0.164    0.919      0.914    0.917      0.748    0.928     0.950     1
+Weighted Avg.    0.889    0.138    0.889      0.889    0.889      0.748    0.928     0.919     
+
+=================================================================

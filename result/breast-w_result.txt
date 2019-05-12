@@ -1,0 +1,160 @@
+==== J48 summary ====
+Correctly Classified Instances         661               94.5637 %
+Incorrectly Classified Instances        38                5.4363 %
+Kappa statistic                          0.8799
+Mean absolute error                      0.0694
+Root mean squared error                  0.2229
+Relative absolute error                 15.352  %
+Root relative squared error             46.8927 %
+Total Number of Instances              699     
+==== J48 detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.956    0.075    0.961      0.956    0.958      0.880    0.955     0.955     benign
+                 0.925    0.044    0.918      0.925    0.921      0.880    0.955     0.902     malignant
+Weighted Avg.    0.946    0.064    0.946      0.946    0.946      0.880    0.955     0.937     
+
+=================================================================
+==== NaiveBayes summary ====
+Correctly Classified Instances         671               95.9943 %
+Incorrectly Classified Instances        28                4.0057 %
+Kappa statistic                          0.9127
+Mean absolute error                      0.0408
+Root mean squared error                  0.1994
+Relative absolute error                  9.0336 %
+Root relative squared error             41.9578 %
+Total Number of Instances              699     
+==== NaiveBayes detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.952    0.025    0.986      0.952    0.969      0.914    0.988     0.995     benign
+                 0.975    0.048    0.914      0.975    0.944      0.914    0.983     0.942     malignant
+Weighted Avg.    0.960    0.033    0.962      0.960    0.960      0.914    0.986     0.976     
+
+=================================================================
+==== SVM summary ====
+Correctly Classified Instances         678               96.9957 %
+Incorrectly Classified Instances        21                3.0043 %
+Kappa statistic                          0.9337
+Mean absolute error                      0.03  
+Root mean squared error                  0.1733
+Relative absolute error                  6.6471 %
+Root relative squared error             36.4672 %
+Total Number of Instances              699     
+==== SVM detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.974    0.037    0.980      0.974    0.977      0.934    0.968     0.972     benign
+                 0.963    0.026    0.951      0.963    0.957      0.934    0.968     0.928     malignant
+Weighted Avg.    0.970    0.034    0.970      0.970    0.970      0.934    0.968     0.957     
+
+=================================================================
+==== Neural Network summary ====
+Correctly Classified Instances         666               95.279  %
+Incorrectly Classified Instances        33                4.721  %
+Kappa statistic                          0.8958
+Mean absolute error                      0.0501
+Root mean squared error                  0.197 
+Relative absolute error                 11.083  %
+Root relative squared error             41.4507 %
+Total Number of Instances              699     
+==== Neural Network detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.961    0.062    0.967      0.961    0.964      0.896    0.986     0.994     benign
+                 0.938    0.039    0.926      0.938    0.932      0.896    0.986     0.965     malignant
+Weighted Avg.    0.953    0.054    0.953      0.953    0.953      0.896    0.986     0.984     
+
+=================================================================
+==== KNN summary ====
+Correctly Classified Instances         665               95.1359 %
+Incorrectly Classified Instances        34                4.8641 %
+Kappa statistic                          0.8919
+Mean absolute error                      0.0466
+Root mean squared error                  0.2103
+Relative absolute error                 10.3046 %
+Root relative squared error             44.2421 %
+Total Number of Instances              699     
+==== KNN detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.967    0.079    0.959      0.967    0.963      0.892    0.973     0.983     benign
+                 0.921    0.033    0.937      0.921    0.929      0.892    0.973     0.915     malignant
+Weighted Avg.    0.951    0.063    0.951      0.951    0.951      0.892    0.973     0.959     
+
+=================================================================
+==== Bagging J48 summary ====
+Correctly Classified Instances         673               96.2804 %
+Incorrectly Classified Instances        26                3.7196 %
+Kappa statistic                          0.918 
+Mean absolute error                      0.0674
+Root mean squared error                  0.1812
+Relative absolute error                 14.9053 %
+Root relative squared error             38.1164 %
+Total Number of Instances              699     
+==== Bagging J48 detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.967    0.046    0.976      0.967    0.971      0.918    0.985     0.994     benign
+                 0.954    0.033    0.939      0.954    0.947      0.918    0.985     0.947     malignant
+Weighted Avg.    0.963    0.041    0.963      0.963    0.963      0.918    0.985     0.978     
+
+=================================================================
+==== Bagging NaiveBayes summary ====
+Correctly Classified Instances         670               95.8512 %
+Incorrectly Classified Instances        29                4.1488 %
+Kappa statistic                          0.9097
+Mean absolute error                      0.0407
+Root mean squared error                  0.1955
+Relative absolute error                  9.0068 %
+Root relative squared error             41.1355 %
+Total Number of Instances              699     
+==== Bagging NaiveBayes detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.950    0.025    0.986      0.950    0.968      0.911    0.991     0.996     benign
+                 0.975    0.050    0.911      0.975    0.942      0.911    0.987     0.956     malignant
+Weighted Avg.    0.959    0.034    0.960      0.959    0.959      0.911    0.989     0.982     
+
+=================================================================
+==== Bagging SVM summary ====
+Correctly Classified Instances         678               96.9957 %
+Incorrectly Classified Instances        21                3.0043 %
+Kappa statistic                          0.9337
+Mean absolute error                      0.0332
+Root mean squared error                  0.17  
+Relative absolute error                  7.3435 %
+Root relative squared error             35.7658 %
+Total Number of Instances              699     
+==== Bagging SVM detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.974    0.037    0.980      0.974    0.977      0.934    0.975     0.979     benign
+                 0.963    0.026    0.951      0.963    0.957      0.934    0.975     0.937     malignant
+Weighted Avg.    0.970    0.034    0.970      0.970    0.970      0.934    0.975     0.964     
+
+=================================================================
+==== Bagging Neural Network summary ====
+Correctly Classified Instances         671               95.9943 %
+Incorrectly Classified Instances        28                4.0057 %
+Kappa statistic                          0.9117
+Mean absolute error                      0.0515
+Root mean squared error                  0.1719
+Relative absolute error                 11.3861 %
+Root relative squared error             36.1705 %
+Total Number of Instances              699     
+==== Bagging Neural Network detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.965    0.050    0.974      0.965    0.969      0.912    0.989     0.995     benign
+                 0.950    0.035    0.935      0.950    0.942      0.912    0.989     0.967     malignant
+Weighted Avg.    0.960    0.045    0.960      0.960    0.960      0.912    0.989     0.985     
+
+=================================================================
+==== Bagging KNN summary ====
+Correctly Classified Instances         670               95.8512 %
+Incorrectly Classified Instances        29                4.1488 %
+Kappa statistic                          0.9083
+Mean absolute error                      0.0446
+Root mean squared error                  0.1765
+Relative absolute error                  9.8621 %
+Root relative squared error             37.1246 %
+Total Number of Instances              699     
+==== Bagging KNN detail ====
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.967    0.058    0.969      0.967    0.968      0.908    0.987     0.995     benign
+                 0.942    0.033    0.938      0.942    0.940      0.908    0.987     0.963     malignant
+Weighted Avg.    0.959    0.049    0.959      0.959    0.959      0.908    0.987     0.984     
+
+=================================================================
