@@ -13,12 +13,6 @@
     <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
   </properties>
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.7</version>
-      <scope>test</scope>
-    </dependency>
 
     <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/weka-stable -->
     <dependency>
@@ -59,6 +53,7 @@
                 </transformer>
               </transformers>
               <createDependencyReducedPom>false</createDependencyReducedPom>
+              <minimizeJar>true</minimizeJar>
             </configuration>
           </execution>
         </executions>
